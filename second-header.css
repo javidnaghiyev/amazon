@@ -1,0 +1,70 @@
+.header-second-part{
+    height: 40%;
+    width: 100%;
+    display: inline-block;
+    padding: 2px;
+    position: relative;
+}
+.location{
+    width: 11rem;
+    line-height: 13px;
+    height: 100%;
+    position: absolute;
+}
+.location > div{
+    height: 100%;
+    width: 1.5rem;
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.location > div > span{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+}
+.location:hover{
+    border: 1px solid white;
+}
+.primary-text{
+    color: white;
+    font-size: 13px;
+}
+.secondary-text{
+    color: white;
+    font-weight: 700;
+}
+.navbar{
+    height: 100%;
+    display: inline-block;
+    width: auto;
+    position: relative;
+    left: 14rem;
+}
+.navbar a{
+    color: rgb(184, 185, 185);
+    text-decoration: none;
+    margin: 0 10px; 
+    font-weight: 700;
+}
+.navbar a:hover{
+    color: white;
+}
+.deals{
+    height: 100%;
+    width: auto;
+    display: inline-block;
+    position: relative;
+    float: right;
+    right: 7rem;
+}
+.deals h1{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto 0;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
